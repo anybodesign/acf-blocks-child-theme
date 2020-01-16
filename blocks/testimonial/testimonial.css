@@ -1,0 +1,28 @@
+/*
+	Testimonial Block
+*/
+
+
+.acf-block-testimonial-figure img {
+	border-radius: 50%;
+}
+.testimonial-desc {
+	display: block;
+	font-style: italic;
+}
+
+@media (min-width: 782px) {
+	
+	.acf-block-testimonial-item {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.acf-block-testimonial-figure {
+		width: 30%;
+	}
+	.acf-block-testimonial-content {
+		width: 70%;
+		padding-left: 2rem;
+	}
+}

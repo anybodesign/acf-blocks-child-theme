@@ -1,0 +1,33 @@
+/*
+Theme Name: Twenty Twenty ACF Blocks
+Description: A Twenty Twenty WordPress Child Theme to experiment with ACF Blocks
+Author: Thomas Villain
+Author URI: https://anybodesign.com/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Text Domain: my-acf-blocks
+Version: 1.0
+
+Template: twentytwenty
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+.text-chapo {
+	font-size: 2.8rem;
+	padding: 1rem;
+	border: #333 1px dashed;
+}
+
+/*¨Blocks */
+
+[class*=acf-block--] {
+	position: relative;
+}
+.acf-block-container {
+	
+}
